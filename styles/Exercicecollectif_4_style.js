@@ -23,7 +23,7 @@ var style_Exercicecollectif_4 = function(feature, resolution){
     if (value >= 1.000000 && value <= 3.000000) {
             style = [ new ol.style.Style({
         image: new ol.style.Circle({radius: 8.0 + size,
-            displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.0}), fill: new ol.style.Fill({color: 'rgba(45,79,145,1.0)'})}),
+            displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.5)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.0}), fill: new ol.style.Fill({color: 'rgba(45,79,145,0.5)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -31,7 +31,7 @@ var style_Exercicecollectif_4 = function(feature, resolution){
                     } else if (value >= 3.000000 && value <= 5.000000) {
             style = [ new ol.style.Style({
         image: new ol.style.Circle({radius: 12.0 + size,
-            displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.0}), fill: new ol.style.Fill({color: 'rgba(45,79,145,1.0)'})}),
+            displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.5)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.0}), fill: new ol.style.Fill({color: 'rgba(45,79,145,0.5)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -39,7 +39,7 @@ var style_Exercicecollectif_4 = function(feature, resolution){
                     } else if (value >= 5.000000 && value <= 7.000000) {
             style = [ new ol.style.Style({
         image: new ol.style.Circle({radius: 16.0 + size,
-            displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.0}), fill: new ol.style.Fill({color: 'rgba(45,79,145,1.0)'})}),
+            displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(35,35,35,0.5)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.0}), fill: new ol.style.Fill({color: 'rgba(45,79,145,0.5)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
